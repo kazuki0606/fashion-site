@@ -1,0 +1,67 @@
+.slider img {
+  width: 100%;
+  height: 45vw;
+  object-fit: cover;
+}
+
+.slider {
+  width: 100%;
+  
+  margin: 0 auto;
+  
+
+  
+}
+
+
+
+.slick-prev{
+  left: 20px;
+  
+  z-index: 10;
+}
+.slick-next{
+  right: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: FontAwesome;
+  color: rgb(39, 32, 32);
+  
+}
+.slick-prev:before{
+  content: "\f104";
+  
+}
+
+.slick-next:before {
+  content: "\f105";
+}
+
+/*.top-content{
+position: absolute;
+top: 60px;
+}
+*/
+
+
+
+
+.slider li{
+	height: auto;
+	position: relative;
+}
+.slider li .top-content{
+	
+	position: absolute;
+	top: 150px;
+  left: 20px;
+  
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center; 
+        align-items: center; */
+}
